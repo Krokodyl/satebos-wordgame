@@ -5,9 +5,11 @@
 Satebo's Wordgame is a homebrew game for the [Satellaview](https://en.wikipedia.org/wiki/Satellaview) (the Super Famicom extension). \
 It is an implementation of the [Wordle](https://en.wikipedia.org/wiki/Wordle) game, developped by Josh Wardle, that became popular in 2021 before being bought by the New York Times.
 
-The game is named after Satebo, one of the two Satellaview mascots. \
-Why did you spell wordgame in one word? I don't know, why is wargame spelled in one word?
+The game is named after Satebo, one of the two Satellaview mascots. (Satebo: ![00](screenshots/satebo.png) and Parabo: ![00](screenshots/parabo.png)) \
+Why did you spell wordgame in one word? I don't know, why is wargame spelled in one word? \
 My prototype was called Super Wordle but I'd rather not get sued by the NYT.
+
+I mostly did this project as a simple way to learn how to make a game for the SNES. So far, all my other projects were just translation hacks.
 
 ## Emulation
 \
@@ -23,7 +25,7 @@ I couldn't make the game work on:
 - bsnes v115
 - mesen
 
-###Why does the game not work on emulator X?
+### Why does the game not work on emulator X?
 
 The game uses the channel feature of the Satellaview (specifically the Time Channel Packet) in order to get the current date and time.\
 That feature is documented there: [SNES Cart Satellaview Other Packets](https://problemkaputt.de/fullsnes.htm#snescartsatellaviewotherpackets) \
