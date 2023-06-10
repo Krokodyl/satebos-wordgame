@@ -9,7 +9,7 @@ The game is named after Satebo, one of the two Satellaview mascots. (Satebo: ![0
 Why did you spell wordgame in one word? I don't know, why is wargame spelled in one word? \
 My prototype was called Super Wordle but I'd rather not get sued by the NYT.
 
-I mostly did this project as a simple way to learn how to make a game for the SNES. So far, all my other projects were just translation hacks.
+I mostly did this project as a simple way to learn how to make a game for the SNES. So far, all my other projects were just translation hacks so this was all new to me.
 
 ## Emulation
 \
@@ -69,6 +69,8 @@ Try to find a number of words (5, 10 or 15) as fast as possible.
 Try to find as many words as you can in 15 minutes. \
 Like many Satellaview puzzle games, at the end of the 15 min, you are shown a "password" postcard. \
 The password encodes your score (words and guesses) to be verifiable. \
+Back in the days of the Satellaview, the St.GIGA office would receive the cards, verify them and reveal the winners the following weeks (on the dedicated show or through the digital magazines presumably). \
+If you feel like it, you can post the card with #sateboschallenge on Twitter, I'll verify that your score is legit and may send you a funny gif as a reward.
 
 
 ![00](screenshots/10.png) ![00](screenshots/11.png) \
