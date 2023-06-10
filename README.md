@@ -18,7 +18,8 @@ The game works on:
 - **bsnes-plus**
 
 Requirement: [BS-X BIOS (English) - No DRM - 2016 v1.3](https://project.satellaview.org/downloads.htm) \
-**Make sure to turn on the option "Get BS-X date and time from local time"**
+**Make sure to turn on the option "Get BS-X date and time from local time"** \
+(It should be on by default in snes9x)
 
 I couldn't make the game work on:
 - no$sns
@@ -53,7 +54,11 @@ Play as long as you want. You can press Select to get a new word.
 ![00](screenshots/05.png)
 
 You can play this mode once a day. \
-Each day has a predetermined solution.
+Each day has a predetermined solution. \
+The solution for a given day is based on the month (mod 8), the day of the month and the day of the week (the Time Channel Packet does not include the current year).
+Therefore, as long as the 1st day of the month is different than the 1st day of the same month of the previous years, it will have never-seen-before solutions. \
+But eventually, there will be repeats in the future. By my calculations, the first repeat will be November 2024, being identical to March 2024. After that, September 2025 will be a repeat of January 2024, November 2025 a repeat of March 2025 and December 2025 a repeat of April 2024. \
+The repeated month are always at least 8 months (because of the mod 8 operation) or 1 year apart. Considering the scope of the game (and the fact that we all stopped playing Wordle after 2 weeks), that's a reasonable design trade-off.
 
 ### Time Attack
 
