@@ -11,6 +11,8 @@ My prototype was called Super Wordle but I'd rather not get sued by the NYT.
 
 I mostly did this project as a simple way to learn how to make a game for the SNES. So far, all my other projects were just translation hacks so this was all new to me.
 
+Here's a gameplay video: https://youtu.be/i5349zKPyHg
+
 ## Emulation
 \
 The game works on:
